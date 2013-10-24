@@ -8,6 +8,8 @@ package jp.co.beacon_it.test;
 public class HelloWorld {
 
 	private static String name;
+	private static String type;
+	private static int age;
 
 	public static void setName(String n) {
 		name = n;
