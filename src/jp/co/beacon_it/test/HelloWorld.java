@@ -7,20 +7,14 @@ package jp.co.beacon_it.test;
  */
 public class HelloWorld {
 
-	private static String name;
-	private static String type;
-	private static int age;
+	private String message;
 
-	public static void setName(String n) {
-		name = n;
+	public void setMessage(String message) {
+		this.message = message;
 	}
 
-	public static String getName() {
-		return name;
-	}
-
-	public String toString() {
-		return "Hello, " + name;
+	public String getMessage() {
+		return message;
 	}
 
 }
