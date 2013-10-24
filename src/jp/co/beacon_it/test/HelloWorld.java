@@ -17,4 +17,8 @@ public class HelloWorld {
 		return name;
 	}
 
+	public String toString() {
+		return "Hello, " + name;
+	}
+
 }
