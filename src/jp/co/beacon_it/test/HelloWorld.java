@@ -19,6 +19,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println("Hello, world!");
+		HelloWorld.setName("Pero");
+		System.out.println(HelloWorld.getName());
 	}
 
 }
