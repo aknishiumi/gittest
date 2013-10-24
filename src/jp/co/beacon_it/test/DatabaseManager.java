@@ -7,4 +7,12 @@ public class DatabaseManager {
 	private String user;
 	private String password;
 
+	public DatabaseManager(String driver, String url, String user, String password) {
+		this.driver = driver;
+		this.url = url;
+		this.user = user;
+		this.password = password;
+	}
+
+
 }
