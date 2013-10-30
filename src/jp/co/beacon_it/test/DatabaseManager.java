@@ -36,6 +36,8 @@ public class DatabaseManager {
 			result = stmt.executeUpdate(sql);
 		}catch(SQLException e){
 			e.printStackTrace();
+		} finally {
+
 		}
 		return result;
 	}
