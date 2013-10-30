@@ -29,9 +29,10 @@ public class DatabaseManager {
 	public int update(String sql) {
 		int result = -1;
 		Connection con = null;
-		Statement stnt = null;
+		Statement stmt = null;
 		try {
 			con = DriverManager.getConnection(url, user, password);
+			stmt = con.createStatement();
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
