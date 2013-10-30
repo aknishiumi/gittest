@@ -1,6 +1,8 @@
 package jp.co.beacon_it.test;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
 
@@ -28,6 +30,11 @@ public class DatabaseManager {
 		int result = -1;
 		Connection con = null;
 		Statement stnt = null;
+		try {
+			con = DriverManager.getConnection(url, user, password);
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
 		return result;
 	}
 	
