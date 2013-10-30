@@ -16,6 +16,7 @@ public class DatabaseManager {
 		
 		try {
 			Class.forName(driver);
+			this.usable = true;
 		} catch(ClassNotFoundException e) {
 			e.printStackTrace();
 		}
