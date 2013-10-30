@@ -7,6 +7,7 @@ package jp.co.beacon_it.test;
  */
 public class HelloWorld {
 
+	private int id;
 	private String message;
 
 	public void setMessage(String message) {
