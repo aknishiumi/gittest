@@ -2,6 +2,7 @@ package jp.co.beacon_it.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
@@ -59,6 +60,7 @@ public class DatabaseManager {
 		Map<String, Object> data = null;
 		Connection con = null;
 		Statement stmt = null;
+		ResultSet rs = null;
 		return data;
 	}
 
