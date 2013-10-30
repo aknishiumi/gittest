@@ -12,6 +12,12 @@ public class DatabaseManager {
 		this.url = url;
 		this.user = user;
 		this.password = password;
+		
+		try {
+			Class.forName(driver);
+		} catch(ClassNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 
 
