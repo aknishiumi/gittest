@@ -38,7 +38,11 @@ public class DatabaseManager {
 			e.printStackTrace();
 		} finally {
 			if (stmt != null) {
-				
+				try {
+					stmt.close();
+				} catch(SQLException e) {
+					e.printStackTrace();
+				}
 			}
 			if (con != null) {
 				
