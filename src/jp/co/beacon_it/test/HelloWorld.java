@@ -17,4 +17,8 @@ public class HelloWorld {
 		return message;
 	}
 
+	@Override
+	public String toString(){
+		return message;
+	}
 }
