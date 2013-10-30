@@ -45,7 +45,11 @@ public class DatabaseManager {
 				}
 			}
 			if (con != null) {
-				
+				try {
+					con.close();
+				} catch(SQLException e) {
+					e.printStackTrace();
+				}
 			}
 		}
 		return result;
