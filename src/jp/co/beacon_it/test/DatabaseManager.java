@@ -1,5 +1,7 @@
 package jp.co.beacon_it.test;
 
+import java.util.Map;
+
 public class DatabaseManager {
 
 	private String driver;
@@ -20,5 +22,16 @@ public class DatabaseManager {
 		}
 	}
 
+	public int update(String sql) {
+		int result = -1;
+		
+		return result;
+	}
+	
+	public Map<String, Object> getData(String sql) {
+		Map<String, Object> data = null;
+		
+		return data;
+	}
 
 }
