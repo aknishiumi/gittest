@@ -4,13 +4,12 @@ import java.util.Map;
 
 public class DatabaseManager {
 
-	private String driver;
+	private boolean usable;
 	private String url;
 	private String user;
 	private String password;
 
 	public DatabaseManager(String driver, String url, String user, String password) {
-		this.driver = driver;
 		this.url = url;
 		this.user = user;
 		this.password = password;
