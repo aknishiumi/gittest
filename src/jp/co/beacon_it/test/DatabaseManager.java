@@ -1,5 +1,7 @@
 package jp.co.beacon_it.test;
 
+import java.sql.Connection;
+import java.sql.Statement;
 import java.util.Map;
 
 public class DatabaseManager {
@@ -24,7 +26,8 @@ public class DatabaseManager {
 
 	public int update(String sql) {
 		int result = -1;
-		
+		Connection con = null;
+		Statement stnt = null;
 		return result;
 	}
 	
