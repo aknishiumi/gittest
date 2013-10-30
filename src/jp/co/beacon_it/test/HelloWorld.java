@@ -19,6 +19,6 @@ public class HelloWorld {
 
 	@Override
 	public String toString(){
-		return message;
+		return "Hello, " + message;
 	}
 }
