@@ -33,6 +33,7 @@ public class DatabaseManager {
 		try {
 			con = DriverManager.getConnection(url, user, password);
 			stmt = con.createStatement();
+			result = stmt.executeUpdate(sql);
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
