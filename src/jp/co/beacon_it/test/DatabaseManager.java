@@ -57,7 +57,7 @@ public class DatabaseManager {
 	
 	public Map<String, Object> getData(String sql) {
 		Map<String, Object> data = null;
-		
+		Connection con = null;
 		return data;
 	}
 
