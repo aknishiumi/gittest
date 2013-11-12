@@ -9,7 +9,6 @@ import java.util.Map;
 
 public class DatabaseManager {
 
-	private boolean usable;
 	private String url;
 	private String user;
 	private String password;
@@ -21,7 +20,6 @@ public class DatabaseManager {
 		
 		try {
 			Class.forName(driver);
-			this.usable = true;
 		} catch(ClassNotFoundException e) {
 			e.printStackTrace();
 		}
