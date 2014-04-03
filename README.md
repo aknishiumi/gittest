@@ -1,1 +1,1 @@
-[[/gittest/image/test-image.png]]
+![test](image/test-image.png)
