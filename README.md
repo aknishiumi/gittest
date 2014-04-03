@@ -1,4 +1,1 @@
-gittest
-=======
-test test test
-test testteste
+[[/gittest/image/test-image.png]]
