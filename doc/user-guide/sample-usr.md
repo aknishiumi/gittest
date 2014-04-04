@@ -1,0 +1,1 @@
+[管理ガイド](../administration-guide/sample-adm.md)
